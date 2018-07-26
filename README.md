@@ -21,6 +21,6 @@ define command{
         command_name    notify-host-by-ms-teams
         command_line    /usr/local/nagios/libexec/sendMSTeamsNotification.sh "$NOTIFICATIONTYPE$" "Host Alert: $HOSTNAME$ is $HOSTSTATE$"
 }
-'''
+```
 
 The command could be configured even more, but meh..
